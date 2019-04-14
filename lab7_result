@@ -1,0 +1,35 @@
+polynomial_kernel
+[[141   7]
+ [  0 127]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98       148
+           1       0.95      1.00      0.97       127
+
+   micro avg       0.97      0.97      0.97       275
+   macro avg       0.97      0.98      0.97       275
+weighted avg       0.98      0.97      0.97       275
+
+gaussian_kernel
+[[148   0]
+ [  0 127]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       148
+           1       1.00      1.00      1.00       127
+
+   micro avg       1.00      1.00      1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+sigmoid_kernel
+[[101  47]
+ [ 51  76]]
+              precision    recall  f1-score   support
+
+           0       0.66      0.68      0.67       148
+           1       0.62      0.60      0.61       127
+
+   micro avg       0.64      0.64      0.64       275
+   macro avg       0.64      0.64      0.64       275
+weighted avg       0.64      0.64      0.64       275
